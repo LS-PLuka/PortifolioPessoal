@@ -18,18 +18,22 @@ export default function Home() {
       <div className={styles.section_devs}>
         <div className={styles.card}>
           <img src="/java.png"></img>
+          <span>Java</span>
         </div>
 
         <div className={styles.card}>
           <img src="/js.png"></img>
+          <span>JavaScript</span>
         </div>
 
         <div className={styles.card}>
           <img src="/mysql.png"></img>
+          <span>MySQL</span>
         </div>
 
         <div className={styles.card}>
           <img src="/github.png"></img>
+          <span>Git & GitHub</span>
         </div>
       </div>
     </div>
