@@ -5,6 +5,33 @@ export default function Home() {
   return (
     <div className={styles.main}>
       <Header />
+
+      <div className={styles.banner}>
+        <div className={styles.text_banner}>
+          <h1 className={styles.title}>Olá, seja bem-vindo <br></br> ao meu portfólio</h1>
+          <h2 className={styles.subtitle}>Estudante de Desenvolvimento Backend</h2>
+        </div>
+
+        <img className={styles.img_banner} src="/foto-perfil.jpg" alt="Banner" />
+      </div>
+
+      <div className={styles.section_devs}>
+        <div className={styles.card}>
+          <img src="/java.png"></img>
+        </div>
+
+        <div className={styles.card}>
+          <img src="/js.png"></img>
+        </div>
+
+        <div className={styles.card}>
+          <img src="/mysql.png"></img>
+        </div>
+
+        <div className={styles.card}>
+          <img src="/github.png"></img>
+        </div>
+      </div>
     </div>
   );
 }
