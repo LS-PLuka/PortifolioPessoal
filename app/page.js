@@ -27,8 +27,23 @@ export default function Home() {
         </div>
 
         <div className={styles.card}>
+          <img src="/node.png"></img>
+          <span>Node.js</span>
+        </div>
+
+        <div className={styles.card}>
           <img src="/mysql.png"></img>
           <span>MySQL</span>
+        </div>
+
+        <div className={styles.card}>
+          <img src="/postgre.png"></img>
+          <span>PostgreSQL</span>
+        </div>
+
+        <div className={styles.card}>
+          <img src="/mongodb.png"></img>
+          <span>MongoDB</span>
         </div>
 
         <div className={styles.card}>
