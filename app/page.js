@@ -51,6 +51,19 @@ export default function Home() {
           <span>Git & GitHub</span>
         </div>
       </div>
+
+      <hr className={styles.hr}></hr>
+
+      <div className={styles.projects}>
+        <div className={styles.title_desc}>
+          <h2>Projetos</h2>
+          <p>Conheça meus projetos em destaque.</p>
+        </div>
+
+        <div className={styles.card_projects}>
+
+        </div>
+      </div>
     </div>
   );
 }
