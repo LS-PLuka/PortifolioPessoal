@@ -62,18 +62,18 @@ export default function Home() {
 
         <div className={styles.cards_container}>
           <a href="https://github.com/LS-PLuka/MoveON.git" className={styles.card_projects}>
-            <img src="./moveon.png" alt="MoveON" />
-            <h1>MoveON</h1>
-            <p>Projeto Fullstack (HTML, CSS e JS).</p>
+            <img src="./primeiro.png" alt="MoveON" />
+            <h1>Primeiro Projeto</h1>
+            <p>Descrição rápida do projeto.</p>
           </a>
 
-          <a href="https://github.com/LS-PLuka/OutroProjeto.git" className={styles.card_projects}>
+          <a href="#" className={styles.card_projects}>
             <img src="./outro.png" alt="Outro" />
             <h1>Outro Projeto</h1>
             <p>Descrição rápida do projeto.</p>
           </a>
 
-          <a href="https://github.com/LS-PLuka/Terceiro.git" className={styles.card_projects}>
+          <a href="#" className={styles.card_projects}>
             <img src="./terceiro.png" alt="Terceiro" />
             <h1>Terceiro</h1>
             <p>Descrição rápida do projeto.</p>
@@ -119,6 +119,33 @@ export default function Home() {
         <div className={styles.about_section}>
           <h3>Idiomas</h3>
           <p>Inglês básico, atualmente estudando por conta própria.</p>
+        </div>
+      </div>
+
+      <div id="cursos" className={styles.courses}>
+        <h2>Cursos Digitais</h2>
+        
+        <div className={styles.courses_container}>
+          <div className={styles.course_card}>
+            <h3>Java do básico ao avançado</h3>
+            <span className={styles.institution}>Geek University - Udemy</span>
+            <p>Curso completo de Java com mais de 32h de conteúdo, cobrindo do básico ao avançado. Inclui orientação a objetos, estruturas de dados, coleções, threads e criação de executáveis. São mais de 300 exercícios práticos e 3 projetos finais (Jogo, Mercado e Banco) para consolidar o aprendizado.</p>
+            <a href="https://www.udemy.com/course/programacao-em-java-essencial/?couponCode=MT180825G1" target="_blank">Acessar Curso</a>
+          </div>
+
+          <div className={styles.course_card}>
+            <h3>.</h3>
+            <span className={styles.institution}>.</span>
+            <p>.</p>
+            <a href="#" target="_blank">Acessar Curso</a>
+          </div>
+
+          <div className={styles.course_card}>
+            <h3>.</h3>
+            <span className={styles.institution}>.</span>
+            <p>.</p>
+            <a href="#" target="_blank">Acessar Curso</a>
+          </div>
         </div>
       </div>
     </div>
