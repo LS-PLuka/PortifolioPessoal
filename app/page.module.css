@@ -164,3 +164,50 @@ body {
   transform: translateY(-5px);
 }
 
+.about {
+  margin: 100px auto;
+  max-width: 1000px;
+  padding: 20px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.about h2 {
+  text-transform: uppercase;
+  color: #177BBD;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about_section {
+  margin-bottom: 25px;
+}
+
+.about_section h3 {
+  font-size: 1.3rem;
+  color: #177BBD;
+  margin-bottom: 10px;
+}
+
+.about_section p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.skills_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.skills_list span {
+  background-color: #50555e;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  border: 1px solid #177BBD;
+}
+

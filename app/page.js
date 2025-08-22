@@ -80,6 +80,47 @@ export default function Home() {
           </a>
         </div>
       </div>
+
+      <div className={styles.about}>
+        <h2>Sobre Mim</h2>
+
+        <div id="sobre" className={styles.about_section}>
+          <h3>Formação</h3>
+          <p>Técnico em Informática para Internet pelo Instituto Federal de São Paulo (IFSP).</p>
+        </div>
+
+        <div className={styles.about_section}>
+          <h3>Educação Atual</h3>
+          <p>Cursando o primeiro semestre de Análise e Desenvolvimento de Sistemas.</p>
+        </div>
+
+        <div className={styles.about_section}>
+          <h3>Objetivo</h3>
+          <p>Busco oportunidades de estágio e posições júnior, especialmente na área de desenvolvimento backend.</p>
+        </div>
+
+        <div className={styles.about_section}>
+          <h3>Habilidades</h3>
+          <div className={styles.skills_list}>
+            <span>Java</span>
+            <span>SpringBoot</span>
+            <span>JavaScript</span>
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>MySQL</span>
+            <span>PostgreSQL</span>
+            <span>MongoDB</span>
+            <span>Postman</span>
+            <span>Git & GitHub</span>
+            <span>Métodologia Ágil (Scrum)</span>
+          </div>
+        </div>
+
+        <div className={styles.about_section}>
+          <h3>Idiomas</h3>
+          <p>Inglês básico, atualmente estudando por conta própria.</p>
+        </div>
+      </div>
     </div>
   );
 }
