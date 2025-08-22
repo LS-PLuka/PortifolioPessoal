@@ -148,6 +148,32 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div id="diferenciais" className={styles.hire_me}>
+        <h2>Por que me contratar?</h2>
+        
+        <p>
+          Busco constantemente crescer na área de tecnologia e evoluir como desenvolvedor.
+        </p>
+        <p>
+          Sempre disposto a aprender novas tecnologias e me adaptar a diferentes desafios.
+        </p>
+        <p>
+          Valorizo o trabalho em equipe e acredito que a colaboração gera os melhores resultados.
+        </p>
+        <p>
+          Tenho boa comunicação, o que facilita a troca de ideias e a resolução de problemas.
+        </p>
+        <p>
+          Comprometido em entregar soluções funcionais, práticas e bem estruturadas.
+        </p>
+        <p>
+          Tenho disciplina, foco e organização no desenvolvimento de projetos.
+        </p>
+        <p>
+          Encaro a tecnologia como uma ferramenta de impacto positivo para negócios e pessoas.
+        </p>
+      </div>
     </div>
   );
 }

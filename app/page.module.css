@@ -285,3 +285,30 @@ body {
 .course_card a:hover {
   background-color: #0f5c8d;
 }
+
+.hire_me {
+  margin: 100px auto;
+  max-width: 900px;
+  padding: 40px;
+  background-color: #3a3f47;
+  border-radius: 20px;
+  border: 1px solid #50555e;
+  text-align: center;
+  color: #fff;
+}
+
+.hire_me h2 {
+  text-transform: uppercase;
+  color: #177BBD;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.hire_me p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #ccc;
+  text-align: left;
+}
