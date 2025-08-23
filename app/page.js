@@ -9,8 +9,50 @@ export default function Home() {
 
       <div className={styles.banner}>
         <div className={styles.text_banner}>
-          <h1 className={styles.title}>Olá, seja bem-vindo <br></br> ao meu portfólio</h1>
+          <h1 className={styles.title}>
+            Olá, seja bem-vindo <br /> ao meu portfólio
+          </h1>
           <h2 className={styles.subtitle}>Estudante de Desenvolvimento Backend</h2>
+
+          <div className={styles.socialBanner}>
+            <a href="https://github.com/LS-PLuka" target="_blank" className={styles.socialBtn}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" viewBox="0 0 24 24">
+                <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.42 7.86 10.96.58.11.79-.25.79-.56
+                  0-.28-.01-1.02-.02-2-3.2.7-3.87-1.54-3.87-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71
+                  1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.73 1.26 3.4.96.11-.75.41-1.26.74-1.55-2.55-.29-5.23-1.28-5.23-5.7
+                  0-1.26.45-2.3 1.19-3.11-.12-.29-.52-1.47.11-3.07 0 0 .97-.31 3.18 1.18a11.07 11.07 0 0 1 5.79 0c2.2-1.49 
+                  3.18-1.18 3.18-1.18.63 1.6.23 2.78.11 3.07.74.81 1.19 1.85 1.19 3.11 
+                  0 4.43-2.69 5.41-5.25 5.69.42.36.8 1.08.8 2.18 0 1.58-.01 2.86-.01 3.25 
+                  0 .31.21.68.8.56C20.21 21.42 23.5 17.1 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/>
+              </svg>
+              <span>GitHub</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/pedroluka-dev/" target="_blank" className={styles.socialBtn}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" viewBox="0 0 24 24">
+                <path d="M19 0h-14C2.23 0 0 2.23 0 5v14c0 2.77 2.23 5 5 
+                  5h14c2.77 0 5-2.23 5-5V5c0-2.77-2.23-5-5-5zm-11 19H5v-9h3v9zm-1.5-10.3c-.97 
+                  0-1.75-.79-1.75-1.75S5.53 5.2 6.5 5.2 8.25 6 8.25 7s-.78 1.7-1.75 1.7zM20 
+                  19h-3v-4.5c0-1.08-.02-2.47-1.5-2.47s-1.75 1.17-1.75 2.38V19h-3v-9h2.88v1.23h.04c.4-.75 
+                  1.37-1.54 2.82-1.54 3.01 0 3.56 1.98 3.56 4.56V19z"/>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+
+            <a href="https://instagram.com/ls_pedroluka_" target="_blank" className={styles.socialBtn}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" viewBox="0 0 24 24">
+                <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 
+                  5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 
+                  5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 
+                  3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 
+                  3.5 0 0 0 16.5 4h-9zm4.5 3.5a5 5 0 1 1 0 10 
+                  5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 
+                  3 3 0 0 0 0-6zm5.25-2.75a1.25 1.25 0 1 1 0 2.5 
+                  1.25 1.25 0 0 1 0-2.5z"/>
+              </svg>
+              <span>Instagram</span>
+            </a>
+          </div>
         </div>
 
         <img className={styles.img_banner} src="/foto-perfil.jpg" alt="Banner" />
