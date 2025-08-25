@@ -7,8 +7,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Meu Site",
-  description: "Feito com Next.js",
+  title: "Pedro Luka",
+  description: "Meu Portifólio Pessoal",
 };
 
 export default function RootLayout({ children }) {
