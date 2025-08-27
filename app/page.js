@@ -8,19 +8,22 @@ import CourseCard from "@/components/CourseCard";
 export default function Home() {
   const projects = [
     {
-      title: "Primeiro Projeto",
-      description: "Descrição rápida do projeto.",
-      link: "#",
+      title: "Sistema Bancário Simples em Java",
+      description: 
+        "Este projeto é uma simulação de um sistema bancário desenvolvido em Java, com foco em conceitos de Programação Orientada a Objetos (POO), como encapsulamento, classes, métodos e instância de objetos.",
+      link: "https://github.com/LS-PLuka/ContaBancaria.git",
     },
     {
-      title: "Outro Projeto",
-      description: "Descrição rápida do projeto.",
-      link: "#",
+      title: "MoveON",
+      description: 
+        "Rede social focada em atividades físicas e interação entre amigos, com funcionalidades de postagens, comentários, curtidas e chat em tempo real.",
+      link: "https://github.com/LS-PLuka/MoveON.git",
     },
     {
-      title: "Terceiro Projeto",
-      description: "Descrição rápida do projeto.",
-      link: "#",
+      title: "Portifólio Pessoal",
+      description: 
+        "Meu portifólio pessoal criado com React e Next.js",
+      link: "https://github.com/LS-PLuka/PortifolioPessoal.git",
     },
   ];
 
@@ -28,14 +31,15 @@ export default function Home() {
     {
       title: "Informática para Internet",
       institution: "Instituto Federal de São Paulo - IFSP",
-      description: ".",
-      link: "#",
+      description: 
+        "Curso técnico em Informática para Internet, focado em criação de sites e aplicativos, utilizando linguagens de programação e frameworks modernos.",
+      link: "https://www.ifspcaraguatatuba.edu.br/cursos/tecnico/tecnico-em-informatica-para-internet",
     },
     {
       title: "Java do básico ao avançado",
       institution: "Udemy",
       description:
-        "Curso completo de Java com mais de 32h de conteúdo, cobrindo do básico ao avançado...",
+        "Curso completo de Java do básico ao avançado, com mais de 32h de conteúdo, exercícios práticos e 3 projetos finais. Aprenda orientação a objetos, estruturas de dados, threads e técnicas essenciais para desenvolver qualquer tipo de software em Java.",
       link: "https://www.udemy.com/course/programacao-em-java-essencial/?couponCode=MT180825G1",
     },
   ];
@@ -96,7 +100,7 @@ export default function Home() {
 
         <div className={styles.about_section}>
           <h3>Educação Atual</h3>
-          <p>Cursando o primeiro semestre de Análise e Desenvolvimento de Sistemas.</p>
+          <p>Cursando o último semestre de Técnico em Informática para Internet.</p>
         </div>
 
         <div className={styles.about_section}>
