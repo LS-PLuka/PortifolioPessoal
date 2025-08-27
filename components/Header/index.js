@@ -8,8 +8,7 @@ export default function Header() {
         <ul>
           <li><a href="#projetos">Projetos</a></li>
           <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#cursos">Cursos</a></li>
-          <li><a href="#diferenciais">Diferenciais</a></li>
+          <li><a href="#cursos">Formações</a></li>
         </ul>
       </nav>
     </header>
