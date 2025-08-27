@@ -59,6 +59,7 @@ body {
   background: #177BBD;
 }
 
+/* Seção devs (cards de techs) */
 .section_devs {
   display: flex;
   flex-wrap: wrap;
@@ -67,54 +68,17 @@ body {
   margin: 100px 100px;
 }
 
-.card {
-  background-color: #3a3f47;
-  border-radius: 10px;
-  padding: 15px;
-  width: 100px;
-  text-align: center;
-  color: white;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  border: 1px solid #50555e;
-}
-
-.card img {
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto 10px auto;
-}
-
-.card span {
-  font-size: 0.9rem;
-  color: #fff;
-  opacity: 0.8;
-  transition: all 0.3s ease;
-}
-
-.card:hover {
-  background-color: #50555e;
-  transform: translateY(-5px);
-  border: 1px solid #177BBD;
-  box-shadow: 0 4px 10px rgba(23, 123, 189, 0.3);
-  cursor: text;
-}
-
-.card:hover span {
-  opacity: 1;
-  color: #177BBD;
+/* Projetos */
+.projects {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title_desc {
-  align-items: center;
-  justify-content: center;
   text-align: center;
-}
-
-.projects {
-  margin-top: 80px;
+  margin-bottom: 40px;
 }
 
 .title_desc h2 {
@@ -129,18 +93,6 @@ body {
   font-size: 1rem;
 }
 
-.projects {
-  margin-top: 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.title_desc {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
 .cards_container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -148,43 +100,7 @@ body {
   justify-items: center;
 }
 
-.card_projects {
-  background-color: #3a3f47;
-  width: 280px;
-  border-radius: 20px;
-  border: 1px solid #50555e;
-  padding: 20px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.card_projects img {
-  width: 60%;
-  height: auto;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto 20px auto;
-}
-
-.card_projects h1 {
-  font-size: 1.5rem;
-  color: white;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.card_projects p {
-  color: #ccc;
-  font-size: 1rem;
-  text-align: center;
-}
-
-.card_projects:hover {
-  background-color: #50555e;
-  border: 1px solid #177BBD;
-  transform: translateY(-5px);
-}
-
+/* Sobre mim */
 .about {
   margin: 100px auto;
   max-width: 1000px;
@@ -232,6 +148,7 @@ body {
   border: 1px solid #177BBD;
 }
 
+/* Cursos */
 .courses {
   margin: 80px 100px;
   text-align: center;
@@ -252,61 +169,7 @@ body {
   gap: 30px;
 }
 
-.course_card {
-  background-color: #3a3f47;
-  width: 250px;
-  padding: 20px;
-  border-radius: 15px;
-  border: 1px solid #50555e;
-  transition: all 0.3s ease;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.course_card:hover {
-  background-color: #50555e;
-  border: 1px solid #177BBD;
-  transform: translateY(-5px);
-}
-
-.course_card h3 {
-  font-size: 1.2rem;
-  color: #fff;
-  margin-bottom: 5px;
-}
-
-.course_card .institution {
-  font-size: 0.9rem;
-  color: #177BBD;
-  margin-bottom: 10px;
-  display: block;
-}
-
-.course_card p {
-  font-size: 0.95rem;
-  color: #ccc;
-  line-height: 1.4;
-  margin-bottom: 15px;
-}
-
-.course_card a {
-  display: inline-block;
-  text-align: center;
-  padding: 10px 15px;
-  background-color: #177BBD;
-  color: #fff;
-  border-radius: 8px;
-  text-decoration: none;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
-}
-
-.course_card a:hover {
-  background-color: #0f5c8d;
-}
-
+/* Diferenciais */
 .hire_me {
   margin: 100px auto;
   max-width: 900px;
