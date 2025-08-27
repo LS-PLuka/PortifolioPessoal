@@ -1,0 +1,36 @@
+.card_projects {
+  background-color: #3a3f47;
+  width: 280px;
+  border-radius: 20px;
+  border: 1px solid #50555e;
+  padding: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.card_projects img {
+  width: 60%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.card_projects h1 {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card_projects p {
+  color: #ccc;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.card_projects:hover {
+  background-color: #50555e;
+  border: 1px solid #177BBD;
+  transform: translateY(-5px);
+}
