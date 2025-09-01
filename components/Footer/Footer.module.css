@@ -53,3 +53,32 @@
 .icons a:hover {
   background: #177BBD;
 }
+
+/* ================= RESPONSIVIDADE ================= */
+
+/* Tablets e telas médias */
+@media (max-width: 900px) {
+  .footer {
+    gap: 60px;
+    font-size: 13px;
+  }
+}
+
+/* Smartphones */
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .social {
+    align-items: center;
+  }
+}

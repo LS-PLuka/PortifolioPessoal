@@ -1,6 +1,7 @@
 .card_projects {
   background-color: #3a3f47;
-  width: 280px;
+  width: 100%;
+  max-width: 280px;
   border-radius: 20px;
   border: 1px solid #50555e;
   padding: 20px;
@@ -8,6 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10px;
 }
 
 .card_projects h1 {
@@ -32,16 +34,46 @@
   box-shadow: 0 8px 20px rgba(23, 123, 189, 0.3);
 }
 
+/* Botão */
 .button {
   background-color: #177BBD;
-  color: white;
-  padding: 8px 14px;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
   border-radius: 8px;
-  text-decoration: none;
   font-size: 0.9rem;
-  transition: background 0.3s ease;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
 }
 
 .button:hover {
-  background-color: #0d5d8c;
+  background-color: #0f5c91;
+  transform: scale(1.05);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .card_projects {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card_projects {
+    padding: 15px;
+  }
+
+  .card_projects h1 {
+    font-size: 1.2rem;
+  }
+
+  .card_projects p {
+    font-size: 0.9rem;
+  }
+
+  .button {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
 }

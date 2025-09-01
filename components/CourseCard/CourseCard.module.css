@@ -54,3 +54,52 @@
 .course_card a:hover {
   background-color: #0f5c8d;
 }
+
+/* ================= RESPONSIVIDADE ================= */
+
+/* Tablets */
+@media (max-width: 900px) {
+  .course_card {
+    width: 220px;
+    padding: 18px;
+  }
+
+  .course_card h3 {
+    font-size: 1.1rem;
+  }
+
+  .course_card p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Smartphones */
+@media (max-width: 600px) {
+  .course_card {
+    width: 100%;
+    max-width: 320px;
+    padding: 16px;
+    margin: 0 auto;
+  }
+
+  .course_card h3 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .course_card .institution {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  .course_card p {
+    text-align: center;
+    font-size: 0.85rem;
+  }
+
+  .course_card a {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.85rem;
+  }
+}
