@@ -2,9 +2,12 @@ import styles from "./ProjectCard.module.css";
 
 export default function ProjectCard({ title, description, link }) {
   return (
-    <a href={link} target="_blank" className={styles.card_projects}>
+    <div className={styles.card_projects}>
       <h1>{title}</h1>
       <p>{description}</p>
-    </a>
+      <a href={link} target="_blank" className={styles.button}>
+        Repositório GitHub
+      </a>
+    </div>
   );
 }
